@@ -29,6 +29,9 @@ Example Code:
 
 Bootstrap has its own styles for button elements
 With **btn** and **btn-default** classes
+**Removed in Bootstrap 4 and later**
+In Bootstrap 4 and 5, btn-default no longer exists.
+use instead **btn-secondary**
 
 
 making them block elements with the additional class of **btn-block**, your button will stretch to fill your page's entire horizontal space and any elements following it will flow onto a "new line" below the block.
