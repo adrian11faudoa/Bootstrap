@@ -37,21 +37,77 @@ Example Code:
     <button class="btn btn-default btn-block">Submit</button>
 ```
 
-Step 6
+
+The btn-primary class is the main color you'll use in your app. 
+It is useful for highlighting actions you want your user to take.
 
 
+Bootstrap comes with several pre-defined colors for buttons. 
+The btn-info class is used to call attention to optional actions that the user can take.
 
 
+The btn-danger class is the button color you'll use to notify users that the button performs a destructive action, such as deleting a cat photo.
 
 
+Bootstrap uses a responsive 12-column grid system, which makes it easy to put elements into rows and specify each element's relative width. 
+Most of Bootstrap's classes can be applied to a div element.
 
 
+Bootstrap's col-md-*  class. 
+Here, md means medium, and * is a number specifying how many columns wide the element should be. 
+In this case, the column width of an element on a medium-sized screen, such as a laptop, is being specified.
+
+col-xs-*, where xs means extra small (like an extra-small mobile phone screen)
 
 
+By using the inline span element, you can put several elements on the same line, and even style different parts of the same line differently.
+
+the span with the class text-danger make the text red
 
 
+Font Awesome is a convenient library of icons. 
+These icons can be webfonts or vector graphics. 
+These icons are treated just like fonts. 
+You can specify their size using pixels, and they will assume the font size of their parent HTML elements.
+
+You can include Font Awesome in any app by adding the following code to the top of your HTML:
+Example Code:
+```
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+```
+
+You can add the Font Awesome classes to the i element to turn it into an icon, for example:
+Example Code:
+```
+    <i class="fas fa-info-circle"></i>
+    <i class="fa fa-trash">
+    <i class="fa fa-paper-plane"></i>
+```
+
+to add a thumbs-up icon to your like button by giving it an i element with the classes **fas** and **fa-thumbs-up**
 
 
+You can use Bootstrap's col-xs-* classes on form elements, too
 
+
+All textual <input>, <textarea>, and <select> elements with the class .form-control have a width of 100%.
+
+Example Code:
+```
+    <div class="container-fluid">
+```
+Has responsive fixed widths based on screen size.
+Adds margins on the left and right (not edge-to-edge).
+Best when you want content to be centered and not touch the screen edges.
+
+
+Bootstrap has a class called well that can create a visual sense of depth for your columns.
+
+
+Not every class needs to have corresponding CSS. 
+Sometimes we create classes just for the purpose of selecting these elements more easily using jQuery.
+
+
+When we start using jQuery, we will modify HTML elements without needing to actually change them in HTML.
 
 
